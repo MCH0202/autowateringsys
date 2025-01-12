@@ -26,6 +26,10 @@ This repository contains the implementation of a **smart irrigation system** des
                         - moisture detector.pdf
             - src/
                         - WateringSys.ino
+            - video and pictures/
+                        - rain.mp4
+                        -soildry.png
+                        -soilwet.png
             - README.md
 ```
 
