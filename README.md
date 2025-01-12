@@ -42,11 +42,12 @@ This repository contains the implementation of a **smart irrigation system** des
 ## Getting Started
 
 ### Hardware Setup
-1. Connect the rain sensor to A0 and the soil moisture sensor to A3 on the Arduino.
-2. Wire the LCD module via the I2C interface (SDA to A4, SCL to A5).
-3. Attach the relay module to Pin 8 for controlling the water pump.
-4. Refer to the circuit diagram in `/hardware/circuit-diagram.png` for detailed wiring.
-5. Download .stl files in folder box which are the models for 3D printing.
+1. Download .stl files in folder box which are the models for 3D printing.
+2. Connect the rain sensor to A0 and the soil moisture sensor to A3 on the Arduino.
+3. Wire the LCD module via the I2C interface (SDA to A4, SCL to A5).
+4. Attach the relay module to Pin 8 for controlling the water pump.
+5. Refer to the circuit diagram in `/hardware/circuit-diagram.png` for detailed wiring.
+   And inside of container after installing all modules should looks like the diagram `/hardware/installed_graph.png` 
 
 ### Software Setup
 1. Install the Arduino IDE and the `LiquidCrystal_I2C` library.
