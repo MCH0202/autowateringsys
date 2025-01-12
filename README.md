@@ -13,8 +13,20 @@ This repository contains the implementation of a **smart irrigation system** des
 ---
 
 ## Repository Structure
-
-
+```plaintext
+- autowateringsys/
+            - Box/
+                        - Lid.stl
+                        - Box.stl
+            - hardware/
+                        - circuit-diagram.png
+            - Datasheets/
+                        - rainsensor.pdf
+                        - moisture detector.pdf
+            - src/
+                        - WateringSys.ino
+            - README.md
+```
 
 ---
 
