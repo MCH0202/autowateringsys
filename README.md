@@ -20,7 +20,7 @@ This repository contains the implementation of a **smart irrigation system** des
                         - Box.stl
             - hardware/
                         - circuit-diagram.png
-                        - installing-graph.png
+                        - installed_modules.png
             - Datasheets/
                         - rainsensor.pdf
                         - moisture detector.pdf
