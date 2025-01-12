@@ -51,7 +51,8 @@ This repository contains the implementation of a **smart irrigation system** des
 3. Wire the LCD module via the I2C interface (SDA to A4, SCL to A5).
 4. Attach the relay module to Pin 8 for controlling the water pump.
 5. Refer to the circuit diagram in `/hardware/circuit-diagram.png` for detailed wiring.
-   And inside of container after installing all modules should looks like the diagram `/hardware/installed_graph.png` 
+   And inside of container after installing all modules should looks like the diagram `/hardware/installed_graph.png`
+<img src="/hardware/installed_graph.png" alt="insidepicture" style="zoom:75%;" />
 
 ### Software Setup
 1. Install the Arduino IDE and the `LiquidCrystal_I2C` library.
@@ -77,6 +78,8 @@ The system was tested under various environmental conditions, and the following 
 
 Detailed test result video are available in the `autowateringsys/videos/` directory.
 
+<img src="/video and pictures/soildry.png" alt="soil dry" style="zoom:75%;" />
+<img src="/video and pictures/soilwet.png" alt="soil wet" style="zoom:75%;" />
 ---
 
 ## Future Enhancements
