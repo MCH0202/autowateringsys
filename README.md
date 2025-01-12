@@ -61,10 +61,33 @@ This repository contains the implementation of a **smart irrigation system** des
 - **Wet Soil**: Pump remained off, conserving water.
 - **Rainfall**: Irrigation paused immediately upon detecting rain.
 
+The system was tested under various environmental conditions, and the following results were recorded:
+
+| Condition             | Soil Moisture (%) | Rainfall Detected | Pump Status  | Notes                  |
+|-----------------------|-------------------|-------------------|--------------|------------------------|
+| Dry soil, no rain     | 30%              | No                | Activated    | Need watering |
+| Wet soil, no rain     | 60%              | No                | Inactive     | No need watering |
+| Dry soil, with rain   | 30%              | Yes               | Inactive     | No need watering      |
+| Wet soil, with rain   | 50%              | Yes               | Inactive     | No need watering       |
+
+Detailed test result video are available in the `autowateringsys/videos/` directory.
+
 ---
 
 ## Future Enhancements
-- **Additional Sensors**: Add temperature and light sensors to provide comprehensive environmental data.
-- **Remote Access**: Integrate Wi-Fi or Bluetooth modules for remote monitoring and control via a mobile 
+- **Additional Sensors**: Integrate temperature and light sensors for comprehensive environmental monitoring.
+- **Remote Access**: Add Wi-Fi or Bluetooth modules for remote monitoring and control via a mobile app.
+- **Compact Design**: Redesign the enclosure to make the system more portable and aesthetically pleasing.
+- **Solar Power Integration**: Incorporate solar panels to enable off-grid operation.
 
+---
 
+## Debugging and Challenges
+- **Sensor Calibration**: Early readings from the soil moisture sensor showed inconsistencies, which were resolved through calibration using test soil samples.
+- **Rain Sensor Noise**: Fluctuations in rain sensor readings were stabilized by adding a resistor and applying a software smoothing algorithm.
+- **Power Distribution**: To support multiple components, a power distribution module was introduced, ensuring stable voltage supply.
+  
+---
+## References
+•DatasheetHub (2022) Rain Sensor Module: Technical Datasheet [PDF]. Available at: https://datasheethub.com/wp-content/uploads/2022/10/rain_sensor_module.pdf (Accessed: 7 January 2025).
+•DFRobot (2022) SEN0114 Soil Moisture Sensor: Technical Datasheet [PDF]. Available at: https://www.datasheethub.com/wp-content/uploads/2022/08/SEN0114_Web.pdf (Accessed: 7 January 2025).
