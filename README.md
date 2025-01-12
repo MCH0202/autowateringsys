@@ -9,7 +9,6 @@ This repository contains the implementation of a **smart irrigation system** des
 - **Soil Moisture and Rainfall Monitoring**: Continuously tracks soil and weather conditions to determine watering needs.
 - **Automated Watering**: Activates the water pump only when necessary, ensuring efficient irrigation.
 - **Real-Time Feedback**: Displays live updates on soil moisture, rainfall status, and pump activity via an LCD module.
-- **Energy Efficiency**: Supports potential integration with solar power for off-grid use.
 
 ---
 
